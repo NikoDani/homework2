@@ -5,22 +5,22 @@ const projects = [
     id: 1,
     title: 'Project One',
     description: 'Project overview — short description here.',
-    github: 'https://github.com/yourname/project-one', // replace
-    vercel:'https://project-one.vercel.app' // replace
+    github: 'https://github.com/NikoDani/homework2', 
+    vercel:'https://homework2-taupe.vercel.app/'
   },
   {
     id:2,
     title:'Project Two',
     description: 'Project overview — short description here.',
-    github: 'https://github.com/yourname/project-two',
-    vercel: 'https://project-two.vercel.app'
+    github: 'https://github.com/NikoDani/homework2',
+    vercel: 'https://homework2-taupe.vercel.app/'
   },
   {
     id:3,
     title: 'Project Three',
     description: 'Project overview — short description here.',
-    github:'https://github.com/yourname/project-three',
-    vercel:'https://project-three.vercel.app'
+    github:'https://github.com/NikoDani/homework2',
+    vercel:'https://homework2-taupe.vercel.app/'
   }
 ]
 

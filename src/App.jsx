@@ -13,9 +13,9 @@ function App() {
       <Header />
       <main className="container">
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/hobby' element={<Hobby />} />
+          <Route path='/'element={<Home />} />
+          <Route path='/projects'element={<Projects />} />
+          <Route path='/hobby'element={<Hobby />} />
           <Route path='/hobby/:id' element={<HobbyDetail />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
