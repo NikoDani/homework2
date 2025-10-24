@@ -12,8 +12,8 @@ export default function Home() {
 
         <div className="contact">
           <h3>Contact info</h3>
-          <p className="muted">github: <span className="placeholder">NikoDani</span></p>
-          <p className="muted">email: <span className="placeholder">nikolozjokhadze2009@gmail.com</span></p>
+          <p className="muted">github:<span className="placeholder">NikoDani</span></p>
+          <p className="muted">email:<span className="placeholder">nikolozjokhadze2009@gmail.com</span></p>
         </div>
       </div>
     </div>

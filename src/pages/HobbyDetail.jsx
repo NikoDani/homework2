@@ -1,14 +1,14 @@
 import React from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate} from 'react-router-dom'
 
 const hobbyData = {
   chess: {
-    title: 'Playing Chess',
+    title:'Playing Chess',
     text: 'Random text why you like this hobby, how often you do it and etc.'
   },
   reading: {
-    title: 'Reading Books',
-    text: 'Random text about reading — what you like, favorite genres and how often.'
+    title:'Reading Books',
+    text:'Random text about reading — what you like, favorite genres and how often.'
   },
   soccer: {
     title: 'Playing Soccer',
@@ -21,7 +21,7 @@ const hobbyData = {
 }
 
 export default function HobbyDetail() {
-  const { id } = useParams()
+  const { id} = useParams()
   const navigate = useNavigate()
   const hobby = hobbyData[id]
 

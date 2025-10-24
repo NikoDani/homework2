@@ -6,21 +6,21 @@ const projects = [
     title: 'Project One',
     description: 'Project overview — short description here.',
     github: 'https://github.com/yourname/project-one', // replace
-    vercel: 'https://project-one.vercel.app' // replace
+    vercel:'https://project-one.vercel.app' // replace
   },
   {
-    id: 2,
-    title: 'Project Two',
+    id:2,
+    title:'Project Two',
     description: 'Project overview — short description here.',
     github: 'https://github.com/yourname/project-two',
     vercel: 'https://project-two.vercel.app'
   },
   {
-    id: 3,
+    id:3,
     title: 'Project Three',
     description: 'Project overview — short description here.',
-    github: 'https://github.com/yourname/project-three',
-    vercel: 'https://project-three.vercel.app'
+    github:'https://github.com/yourname/project-three',
+    vercel:'https://project-three.vercel.app'
   }
 ]
 
@@ -33,7 +33,6 @@ export default function Projects() {
         {projects.map(p => (
           <div className="project-item" key={p.id}>
             <div className="project-left">
-              <div className="project-thumb">📁</div>
             </div>
             <div className="project-right">
               <h3>{p.title}</h3>
