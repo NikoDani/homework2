@@ -1,0 +1,178 @@
+/* RESET BASIC STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* HEADER STYLES */
+header {
+  border-bottom: 2px solid black;
+  padding: 10px 20px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+header a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* CARD STYLE (BOX LOOK) */
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* TITLES */
+.card-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed black;
+  padding-bottom: 8px;
+}
+
+/* HOME PAGE */
+.home-grid {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.profile {
+  width: 180px;
+  text-align: center;
+  border-right: 1px dashed black;
+  padding-right: 15px;
+}
+
+.avatar {
+  font-size: 60px;
+  margin-bottom: 8px;
+}
+
+.contact {
+  flex: 1;
+}
+
+/* PROJECTS PAGE */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.project-thumb {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.project-right h3 {
+  margin-bottom: 5px;
+}
+
+.btn-link {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-link:hover {
+  background-color: black;
+  color: white;
+}
+
+/* HOBBY PAGE */
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+}
+
+.hobby-card {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .home-grid {
+    flex-direction: column;
+  }
+
+  .profile {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+  }
+}
